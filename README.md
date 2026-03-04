@@ -1,1 +1,1 @@
-MY personal site for my portofolio and contact
+My personal site for my portofolio
