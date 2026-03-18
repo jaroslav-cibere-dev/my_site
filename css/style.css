@@ -478,14 +478,18 @@ section {
 
 /* ─── PROJECTS ─── */
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
   max-width: 1100px;
   width: 100%;
 }
 
 .project-card {
+  width: 320px;
+  flex-shrink: 0;
+  flex-grow: 0;
   background: var(--card);
   border: 1px solid rgba(0,229,204,0.07);
   padding: 2rem;
