@@ -131,6 +131,7 @@ nav {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   transition: color 0.2s, text-shadow 0.2s;
+          white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -695,7 +696,7 @@ footer p span {
 
 /* ─── RESPONSIVE ─── */
 @media (max-width: 768px) {
-  nav { padding: 1rem 1.5rem; }
+                      nav { padding: 1rem 1rem; }
                       .nav-links { gap: 1rem; }
                       .nav-links a { font size: 0.65rem; letter-spacing:0.05em;}
   section { padding: 5rem 1.5rem; }
